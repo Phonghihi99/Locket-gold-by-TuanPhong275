@@ -2,7 +2,7 @@
 // Locket Remote Config Rewrite
 // Endpoint: firebaseremoteconfig.googleapis.com
 // Dùng cho: Loon / Quantumult X / Surge / Shadowrocket
-// Tác giả: @duyvinh09
+// Tác giả: @_tuanphong275
 // ============================================================
 
 var ua = $request.headers["User-Agent"] || $request.headers["user-agent"] || "";
@@ -68,8 +68,6 @@ if (ua.includes("Locket")) {
         android_subscribe_gold_button_enabled: "false",
         profile_badge_visible: "true",
         lunar_new_year_app_icon_enabled: "true",
-        settings_instagram_url: "https://www.instagram.com/dvinh.09/",
-        settings_tiktok_url: "https://tiktok.com/@duyvinh.09"
     });
 
     // ============================================================
@@ -472,7 +470,7 @@ if (ua.includes("Locket")) {
                             background: { colors: ["#3B00EC", "#823FFF"] },
                             icon: { data: "💫", type: "emoji" },
                             max_lines: 1,
-                            text: "Xin chào 2027!",
+                            text: "Lên LocketGold liên hệ @_tuanphong275",
                             localized_text: { en: "Xin chào 2027!", vn: "Xin chào 2027!" },
                             text_color: "#FFFFFF",
                             type: "static_content"
